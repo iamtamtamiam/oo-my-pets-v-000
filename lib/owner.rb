@@ -75,7 +75,7 @@ class Owner
     self.dogs.clear
     self.cats.clear
     
-    dog.self
+    print dog.self
     
     
     #self.cats.each {|cat| cat.owner.clear}
