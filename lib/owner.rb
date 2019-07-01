@@ -75,7 +75,7 @@ class Owner
     #self.dogs.clear
     #self.cats.clear
     
-    pets.each {|pet| pet.mood = "nervous"}
+    self.pets.each {|pet| pet.mood = "nervous"}
     
     
     #self.cats.each {|cat| cat.owner.clear}
