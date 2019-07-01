@@ -6,8 +6,8 @@ class Dog
   
   @@all = [] 
   
+  binding.pry
   def initialize(name, owner)
-    binding.pry 
     @name = name
     @mood = 'nervous'
     @owner = owner
