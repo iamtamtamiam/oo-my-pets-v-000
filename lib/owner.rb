@@ -67,11 +67,10 @@ class Owner
   
   def sell_pets
     
-    #binding.pry
     self.cats.each {|kitty| kitty.mood = "nervous"}
     self.dogs.each {|dog| dog.mood = "nervous"}
     
-  
+    print kitty.owner
     
     #self.dogs.clear
     #self.cats.clear
