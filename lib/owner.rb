@@ -1,4 +1,4 @@
-require 'pry'
+
 class Owner
   # code goes helper_method
   attr_reader :species, :name
