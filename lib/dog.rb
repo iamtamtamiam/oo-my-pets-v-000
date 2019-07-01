@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
   # code goes here 
   attr_reader :name
@@ -6,6 +7,7 @@ class Dog
   @@all = [] 
   
   def initialize(name, owner)
+    binding.pry 
     @name = name
     @mood = 'nervous'
     @owner = owner
