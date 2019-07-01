@@ -10,7 +10,7 @@ class Dog
     @mood = 'nervous'
     @owner = owner
     @@all << self
-    #self.owner = owner
+    self.owner = owner
     owner.dogs << self if !@owner.dogs.include?(self)
   end 
   
