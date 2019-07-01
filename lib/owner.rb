@@ -65,7 +65,7 @@ class Owner
     self.cats.each {|cat| cat.mood = "happy"}
   end 
   
-  def sell_pets
+  def sell_pets(pets)
     
     self.cats.each {|kitty| kitty.mood = "nervous"}
     self.dogs.each {|dog| dog.mood = "nervous"}
@@ -75,8 +75,8 @@ class Owner
     self.dogs.clear
     self.cats.clear
     
+    pets.each {|pet| pet.owner}
     
-    dogs.each {|dog| print dog.owner}
     
     #self.cats.each {|cat| cat.owner.clear}
     #cats.each {|cat| cats.delete(cat.owner)}
