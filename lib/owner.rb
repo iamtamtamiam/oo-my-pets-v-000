@@ -76,7 +76,7 @@ class Owner
     self.cats.clear
     
     
-    
+    dogs.each {|dog| print dog.owner}
     
     #self.cats.each {|cat| cat.owner.clear}
     #cats.each {|cat| cats.delete(cat.owner)}
