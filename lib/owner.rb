@@ -76,7 +76,7 @@ class Owner
   
     
     #self.dogs.clear
-    #self.cats.clearexit
+    #self.cats.clear
     
     
     
