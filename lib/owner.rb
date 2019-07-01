@@ -72,8 +72,8 @@ class Owner
     
     
     
-    self.dogs.clear
-    self.cats.clear
+    #self.dogs.clear
+    #self.cats.clear
     
     
     puts dogs.owner
